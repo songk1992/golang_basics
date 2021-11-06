@@ -1,12 +1,11 @@
 package main
 
 import (
-	"fmt"
-	"learn/go/cmd/web/lec001"
-	"learn/go/cmd/web/lec002"
+	"learn/go/cmd/web/lec003"
 )
 
 func main() {
-	fmt.Println(lec001.Lec001());
-	fmt.Println(lec002.Lec002());
+	//fmt.Println(lec001.Lec001());
+	//fmt.Println(lec002.Lec002());
+	lec003.LearnStringFormating();
 }
